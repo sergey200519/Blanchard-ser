@@ -1,0 +1,8 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0 160px;
+}

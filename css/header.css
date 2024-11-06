@@ -1,0 +1,28 @@
+.header {
+  background: #000;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30.1px;
+}
+
+.header-left {
+  display: flex;
+  gap: 181px;
+  align-items: center;
+}
+
+.header-menu__list {
+  display: flex;
+  gap: 105px;
+}
+
+.header-menu__link {
+  color: #fff;
+  font-style: 18px;
+  font-weight: 600;
+}
