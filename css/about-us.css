@@ -1,0 +1,10 @@
+.section-heading {
+  font-size: 48px;
+  font-weight: 400;
+  color: #333333;
+ }
+
+ .section-description {
+  max-width: 1080px;
+  line-height: 32px;
+ }

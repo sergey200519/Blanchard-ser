@@ -1,0 +1,38 @@
+.section_hero {
+  position: relative;
+  padding: 0;
+}
+
+.section_hero_img {
+  position: relative;
+}
+
+.section_hero__textblock {
+  max-width: 570px;
+  position: absolute;
+  top: 18%;
+  color: white;
+}
+
+.section-hero__h1 {
+  padding-bottom: 20px;
+  font-size: 72px;
+  line-height: 68px;
+  font-weight: 700;
+}
+
+.section_hero__span {
+  font-size: 18px;line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-top: 92px;
+  font-size: 18px;
+  line-height: 14px;
+  padding: 31px 52px;
+  border-radius: 100px;
+  background-color: #9D5CD0;
+  color: #fff;
+  border: none;
+}
