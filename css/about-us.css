@@ -1,10 +1,19 @@
-.section-heading {
+.about .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-title {
+  margin-bottom: 16px;
   font-size: 48px;
   font-weight: 400;
   color: #333333;
  }
 
- .section-description {
+ .about-description {
   max-width: 1080px;
+  letter-spacing: -1.55px;
   line-height: 32px;
+  font-size: 16px;
+  font-weight: 400;
  }

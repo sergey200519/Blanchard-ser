@@ -1,38 +1,39 @@
-.section_hero {
-  position: relative;
-  padding: 0;
+.hero {
+  background-image: url(../img/hero.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
 }
 
-.section_hero_img {
-  position: relative;
+.hero .container {
+  padding-top: 146px;
+  padding-bottom: 146px;
 }
 
-.section_hero__textblock {
-  max-width: 570px;
-  position: absolute;
-  top: 18%;
-  color: white;
-}
-
-.section-hero__h1 {
+.hero-title {
+  max-width: 580px;
   padding-bottom: 20px;
   font-size: 72px;
   line-height: 68px;
   font-weight: 700;
+  color: var(--white);
 }
 
-.section_hero__span {
-  font-size: 18px;line-height: 30px;
-  letter-spacing: 1px;
-}
-
-.btn {
-  margin-top: 92px;
+.hero-subtitle {
+  max-width: 580px;
   font-size: 18px;
-  line-height: 14px;
-  padding: 31px 52px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 92px;
+}
+
+.hero-btn {
+  font-size: 18px;
+  line-height: 24.5px;
+  padding: 22.5px 45px;
   border-radius: 100px;
-  background-color: #9D5CD0;
-  color: #fff;
+  background-color: var(--amethyst_color);
+  color: var(--white);
   border: none;
 }
