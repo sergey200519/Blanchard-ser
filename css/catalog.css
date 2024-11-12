@@ -1,0 +1,44 @@
+.catalog__title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.catalog__descr {
+  max-width: 1080px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.catalog__artists {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.catalog__artist {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.artist__name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.artist__date {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--light_gray);
+  margin-bottom: 15px;
+  line-height: 16.34px;
+}
+
+.artist__descr {
+  font-size: 16px;
+  font-weight: 400;
+}
