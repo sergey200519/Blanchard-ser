@@ -17,7 +17,7 @@
   padding: 10px 50px 48px 50px;
 }
 
-.event__date {
+/* .event__date {
   display: block;
   font-size: 12px;
   font-weight: 600;
@@ -25,6 +25,19 @@
   color: var(--light_gray);
   max-width: 145px;
   margin-bottom: 11px;
+} */
+.event__subname {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.event-location,
+.event-date {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+  color: var(--light_gray);
 }
 
 .event__name {
@@ -41,6 +54,8 @@
 }
 
 .event__btn {
+  display: block;
+  margin-top: auto;
   color: var(--amethyst_color);
   text-decoration: underline;
   border: none;
