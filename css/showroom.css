@@ -1,0 +1,28 @@
+.showroom .container {
+  padding-top: 80px;
+}
+
+.showroom-form {
+  display: flex;
+}
+
+.showroom-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.input {
+  padding: 15px 60px;
+  border: 1px solid var(--silver_color);
+  border-radius: 90px;
+  margin-right: 20px;
+}
+
+.showroom--btn {
+  color: var(--amethyst_color);
+  font-size: 18px;
+  border-radius: 100px;
+  padding: 12px 36px;
+  outline: 2px solid var(--amethyst_color);
+  border: none;
+}
