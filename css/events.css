@@ -1,0 +1,48 @@
+.events .container {
+  padding-bottom: 80px;
+}
+
+.enents-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.events__list {
+  display: flex;
+  gap: 50px;
+}
+
+.events__item__info {
+  padding: 10px 50px 48px 50px;
+}
+
+.event__date {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16.34px;
+  color: var(--light_gray);
+  max-width: 145px;
+  margin-bottom: 11px;
+}
+
+.event__name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.event__descr {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 66px;
+}
+
+.event__btn {
+  color: var(--amethyst_color);
+  text-decoration: underline;
+  border: none;
+  font-size: 16px;
+}

@@ -1,0 +1,28 @@
+.projects .container {
+  padding-bottom: 80px;
+}
+
+.projects-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.projects-descr {
+  max-width: 1080px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.projects-info {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.projects-img {
+  display: flex;
+  gap: 34px;
+}
