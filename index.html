@@ -303,10 +303,11 @@
 
       <section class="showroom">
         <div class="container">
-          <div class="showroom-form">
+          <div class="showroom__left">
             <h2 class="showroom-title">Шоурум № 4</h2>
             <address>Леонтьевский переулок, дом 5/1</address>
-            <form
+          </div>
+            <form class="showroom__center"
               action="https://jsonpLaceholder.typicode.com/posts"
               method="POST"
               class="form"
@@ -334,14 +335,16 @@
                   autocomplete="off"
                 />
               </label>
-              <button type="submit" class="showroom--btn">
+              <button type="submit" class="showroom__btn">
                 Заказать обратный звонок
               </button>
             </form>
-          </div>
           <div class="showroom--right">
-            <h3>Связаться в один клик</h3>
-            <svg
+            <div>
+              <h2>Связаться в один клик</h2>
+            </div>
+            <div>
+              <svg
               width="40"
               height="40"
               viewBox="0 0 40 40"
@@ -383,6 +386,7 @@
                 fill="white"
               />
             </svg>
+            </div>
           </div>
         </div>
       </section>
