@@ -311,7 +311,7 @@
         <div class="container">
           <div class="showroom__left">
             <h2 class="showroom-title">Шоурум № 4</h2>
-            <address>Леонтьевский переулок, дом 5/1</address>
+            <address class="showroom-address">Леонтьевский переулок, дом 5/1</address>
           </div>
             <form class="showroom__center"
               action="https://jsonpLaceholder.typicode.com/posts"
@@ -345,11 +345,11 @@
                 Заказать обратный звонок
               </button>
             </form>
-          <div class="showroom--right">
+          <div class="showroom__right">
             <div>
-              <h2>Связаться в один клик</h2>
+              <h2 class="showroom__connect">Связаться в один клик</h2>
             </div>
-            <div>
+            <div class="showroom__social">
               <svg
               width="40"
               height="40"
@@ -399,8 +399,9 @@
 
       <footer class="footer">
         <div class="container">
-          <img class="header-logo" src="/img/logo.svg" alt="" />
-          <svg
+          <img class="footer-logo" src="/img/logo.svg" alt="" />
+          <div class="footer-social">
+            <svg
             width="45"
             height="45"
             viewBox="0 0 45 45"
@@ -430,6 +431,7 @@
               fill="#CACACA"
             />
           </svg>
+          </div>
         </div>
       </footer>
     </main>

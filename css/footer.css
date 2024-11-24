@@ -2,6 +2,13 @@
   background: var(--black);
 }
 .footer .container {
-  padding-top: 80px;
-  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 47px;
+  padding-bottom: 48px;
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
 }

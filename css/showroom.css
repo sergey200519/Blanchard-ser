@@ -1,27 +1,63 @@
+.showroom {
+  border-top: 1px solid var(--silver_color);
+}
+
 .showroom .container {
-  padding-top: 80px;
+  padding-top: 38px;
+  padding-bottom: 37px;
   display: flex;
+  /* justify-content: space-between; */
   gap: 80px;
+  align-items: center;
 }
 
 
 .showroom-title {
   font-size: 24px;
   font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 6px;
+}
+
+.showroom-address {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.showroom__center {
+  display: flex;
+  gap: 20px;
 }
 
 .input {
-  padding: 15px 60px;
+  min-width: 270px;
+  padding: 9px 24px;
   border: 1px solid var(--silver_color);
   border-radius: 90px;
-  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .showroom__btn {
   color: var(--amethyst_color);
   font-size: 18px;
+  font-weight: 700;
   border-radius: 100px;
   padding: 12px 36px;
   outline: 2px solid var(--amethyst_color);
   border: none;
+  height: fit-content;
+}
+
+.showroom__connect {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.showroom__social {
+  display: flex;
+  gap: 20px;
 }
