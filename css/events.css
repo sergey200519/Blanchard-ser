@@ -1,5 +1,5 @@
 .events .container {
-  padding-bottom: 80px;
+  padding-bottom: 79px;
 }
 
 .enents-title {
@@ -12,9 +12,19 @@
   display: flex;
   gap: 50px;
 }
+.events__item img {
+  display: block;
+}
 
 .events__item__info {
-  padding: 10px 50px 48px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+  padding: 13px 49px 48px 49px;
+  border-bottom: 1px solid var(--silver_color);
+  border-left: 1px solid var(--silver_color);
+  border-right: 1px solid var(--silver_color);
 }
 
 /* .event__date {
@@ -29,7 +39,7 @@
 .event__subname {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .event-location,
@@ -42,6 +52,7 @@
 
 .event__name {
   font-size: 24px;
+  line-height: 33px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -50,14 +61,15 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
-  margin-bottom: 66px;
 }
 
 .event__btn {
   display: block;
-  margin-top: auto;
+  width: fit-content;
   color: var(--amethyst_color);
   text-decoration: underline;
   border: none;
   font-size: 16px;
+  background: transparent;
+  line-height: 17px;
 }
