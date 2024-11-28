@@ -12,11 +12,11 @@
   display: flex;
   gap: 50px;
 }
-.events__item img {
+.events__item--image {
   display: block;
 }
 
-.events__item__info {
+.events__item--info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
