@@ -1,0 +1,90 @@
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 50px;
+  }
+
+  /* .header-left {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: start;
+} */
+
+  .header .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 23px;
+  }
+
+  .header-left .header-menu {
+    display: none;
+  }
+
+  .header-logo {
+    width: 187.6px;
+  }
+
+  .header-bottom {
+    display: block;
+    grid-column-start: span 2;
+    /* grid-column-end: 2; */
+  }
+
+  .hero-subtitle {
+    max-width: 660px;
+    margin-bottom: 133px;
+  }
+
+  .header-search {
+    margin-left: auto;
+  }
+
+  .header-menu__list {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .hero {
+    background-image: url(../../img/hero_1024.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .hero .container {
+    padding-top: 101px;
+    padding-bottom: 100px;
+  }
+
+  .gallery {
+    background-image: url(../../img/gallery_tablet.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .gallery .container {
+    padding-bottom: 76px;
+  }
+
+  .gallery-block {
+    display: block;
+  }
+
+  .gallery-checked {
+    margin-bottom: 27px;
+  }
+
+  .catalog__artist {
+    flex-direction: column;
+  }
+
+  .events__list {
+    gap: 27px;
+  }
+
+  .events__item--info {
+    padding: 14px 34px 49px 34px;
+  }
+}
