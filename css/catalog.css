@@ -20,7 +20,7 @@
 .catalog__artists {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 45px;
 }
 
 .catalog__artist {

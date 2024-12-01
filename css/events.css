@@ -57,6 +57,10 @@
   margin-bottom: 10px;
 }
 
+.events__list .events__item:first-child .event__name .event__name--secect {
+  white-space: nowrap;
+}
+
 .event__descr {
   font-size: 16px;
   font-weight: 400;
