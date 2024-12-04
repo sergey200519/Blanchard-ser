@@ -4,6 +4,14 @@
     gap: 44px;
   }
 
+  .hero {
+    background-image: url(../../img/hero_768.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+
   .hero .container {
     padding-top: 85px;
     padding-bottom: 85px;
@@ -13,16 +21,93 @@
     max-width: 555px;
   }
 
-  .hero_picture {
+  .gallery_picture {
     width: 200px;
   }
 
-  .hero_picture img {
+  .gallery_picture img {
     width: 100%;
+  }
+
+  .gallery {
+    background-image: url(../../img/gallery_768.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
   }
 
   .gallery__puctures {
     justify-content: space-between;
     gap: 10px;
+  }
+
+  .catalog_picture {
+    width: 668px;
+  }
+
+  .catalog_picture img {
+    width: 100%;
+  }
+
+  .events .container {
+    padding-bottom: 77px;
+  }
+
+  .artist__date {
+    margin-bottom: 6px;
+  }
+
+  .events__list {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .event__content {
+    max-width: 100%;
+  }
+
+  .events__item--info {
+    min-height: 328px;
+  }
+
+  .event__name {
+    margin-bottom: 14px;
+  }
+
+  .projects-descr {
+    margin-bottom: 28px;
+  }
+
+  .projects-info {
+    margin-bottom: 29px;
+  }
+
+  .projects__images {
+    gap: 17px;
+  }
+
+  .showroom__left {
+    margin-bottom: 28px;
+  }
+
+  .showroom__center {
+    display: block;
+  }
+
+  .showroom__center--label {
+    margin-right: 8px;
+  }
+
+  .showroom__center--label .input {
+    padding: 9px 71px;
+  }
+
+  .showroom__btn {
+    margin-top: 14px;
+    padding: 11px 29px;
+  }
+
+  .showroom__connect {
+    margin-bottom: 9px;
   }
 }
