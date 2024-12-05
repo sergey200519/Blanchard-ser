@@ -48,10 +48,11 @@
     justify-content: space-between;
     gap: 10px;
   }
-
-  .catalog_picture {
+  
+/* TODO: why? */
+  /* .catalog_picture {
     width: 668px;
-  }
+  } */
 
   .catalog_picture img {
     width: 100%;

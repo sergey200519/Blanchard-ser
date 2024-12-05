@@ -14,6 +14,7 @@
 }
 .events__item--image {
   display: block;
+  width: 100%;
 }
 
 .events__item--info {
