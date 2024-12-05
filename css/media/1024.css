@@ -83,6 +83,7 @@
 
   .catalog .container {
     padding-top: 79px;
+    padding-bottom: 82px;
   }
 
   .catalog__artists {
@@ -135,7 +136,7 @@
   .showroom .container {
     display: block;
     padding-top: 42px;
-    padding-bottom: 43px;
+    padding-bottom: 41px;
   }
 
   .showroom__left {
