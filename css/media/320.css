@@ -1,3 +1,125 @@
 @media (max-width: 320px) {
 
+  .header .container {
+    padding-top: 13px;
+    row-gap: 6px;
+    padding-bottom: 9px;
+  }
+
+  .header-logo {
+    width: 96.8px;
+  }
+
+  .header-search {
+    width: 18px;
+  }
+
+  .header-menu__list {
+    gap: 25px;
+  }
+
+  .header-menu__link {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .hero {
+    background-image: url(../../img/hero_320.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .hero .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .hero-title {
+    line-height: 28px;
+    padding-bottom: 11px;
+  }
+
+  .hero-subtitle {
+    max-width: 283px;
+    line-height: 16.34px;
+    margin-bottom: 35px;
+  }
+
+  .hero-btn {
+    font-size: 12px;
+    padding: 9px 19px;
+  }
+
+  .about .container {
+    padding-top: 50px;
+    padding-bottom: 41px;
+  }
+
+  .about-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .about-description {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .gallery {
+    background-image: url(../../img/gallery_320.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .gallery .container {
+    padding-top: 50px;
+    padding-bottom: 46px;
+  }
+
+  .gallery-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .gallery__puctures  {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .gallery_picture {
+    width: 290px;
+  }
+
+
+  .catalog .container {
+    padding-top: 50px;
+  }
+
+  .catalog__title {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 29px;
+  }
+
+  .catalog__artists {
+    gap: 30px;
+  }
+
+  .catalog__artist {
+    gap: 16px;
+  }
+
+  .artist__date {
+    margin-bottom: 13px;
+  }
+
+  .events-title {
+    font-size: 28px;
+    margin-bottom: 11px;
+  }
 }
