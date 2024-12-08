@@ -22,4 +22,11 @@
   .projects__images {
     flex-wrap: wrap;
   }
+  .projects__images--image {
+    max-width: 100%;
+  }
+  .showroom__center--label .input {
+    min-width: auto;
+    max-width: 100%;
+  }
 }

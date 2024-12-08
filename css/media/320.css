@@ -16,6 +16,7 @@
 
   .header-menu__list {
     gap: 25px;
+    margin-right: -15px;
   }
 
   .header-menu__link {
@@ -32,7 +33,7 @@
 
   .hero .container {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 49.5px;
   }
 
   .hero-title {
@@ -43,12 +44,14 @@
   .hero-subtitle {
     max-width: 283px;
     line-height: 16.34px;
-    margin-bottom: 35px;
+    margin: 0 auto 38px auto;
   }
 
   .hero-btn {
+    display: block;
     font-size: 12px;
-    padding: 9px 19px;
+    padding: 8px 19px;
+    margin: 0 auto;
   }
 
   .about .container {
@@ -75,7 +78,7 @@
 
   .gallery .container {
     padding-top: 50px;
-    padding-bottom: 46px;
+    padding-bottom: 47.5px;
   }
 
   .gallery-title {
@@ -95,6 +98,7 @@
 
   .catalog .container {
     padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .catalog__title {
@@ -103,15 +107,25 @@
   }
 
   .catalog__descr {
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
 
   .catalog__artists {
-    gap: 30px;
+    gap: 30.5px;
   }
 
   .catalog__artist {
     gap: 16px;
+  }
+
+  .catalog_picture img {
+    width: 290px;
+    height: 181px;
+    object-fit: cover;
+  }
+
+  .artist__name {
+     max-width: 285px;
   }
 
   .artist__date {
@@ -121,5 +135,8 @@
   .events-title {
     font-size: 28px;
     margin-bottom: 11px;
+  }
+  .events__item--info {
+    padding: 18px 16px 49px 22px;
   }
 }
