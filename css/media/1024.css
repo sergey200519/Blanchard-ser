@@ -1,45 +1,4 @@
 @media (max-width: 1024px) {
-  .container {
-    padding: 0 50px;
-  }
-
-  /* .header-left {
-  display: none;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  align-items: start;
-} */
-
-  .header .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 23px;
-    padding-bottom: 29px;
-  }
-
-  .header-left .header-menu {
-    display: none;
-  }
-
-  .header-logo {
-    width: 187.6px;
-  }
-
-  .header-bottom {
-    display: block;
-    grid-column-start: span 2;
-    /* grid-column-end: 2; */
-  }
-
-  .header-search {
-    margin-left: auto;
-  }
-
-  .header-menu__list {
-    justify-content: space-between;
-    gap: 10px;
-  }
 
   .hero {
     background-image: url(../../img/hero_1024.png);
@@ -81,23 +40,7 @@
     margin-bottom: 27px;
   }
 
-  .catalog .container {
-    padding-top: 79px;
-    padding-bottom: 82px;
-  }
-
-  .catalog__artists {
-    gap: 50px;
-  }
-
-  .catalog__artist {
-    flex-direction: column;
-    gap: 27px;
-  }
-
-  .catalog__descr {
-    margin-bottom: 40px;
-  }
+  
 
   .events .container {
     padding-bottom: 86px;
@@ -133,31 +76,7 @@
     margin-bottom: 21px;
   }
 
-  .showroom .container {
-    display: block;
-    padding-top: 42px;
-    padding-bottom: 41px;
-  }
 
-  .showroom__left {
-    margin-bottom: 30px;
-  }
-
-  .showroom-title {
-    margin-bottom: 10px;
-  }
-
-  .showroom-address {
-    font-size: 14px;
-  }
-
-  .showroom__center {
-    margin-bottom: 27px;
-  }
-
-  .showroom__btn {
-    padding: 11px 42px;
-  }
 
   .footer .container {
     padding-top: 40px;

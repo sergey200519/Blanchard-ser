@@ -1,0 +1,26 @@
+@media (max-width: 1440px) {
+  .catalog .container {
+    padding-top: 79px;
+    padding-bottom: 82px;
+  }
+
+  .catalog__artists {
+    gap: 50px;
+  }
+
+  .catalog__artist {
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  .catalog_picture {
+    width: 100%;
+  }
+  .catalog_picture img {
+    width: 100%;
+  }
+
+  .catalog__descr {
+    margin-bottom: 40px;
+  }
+}

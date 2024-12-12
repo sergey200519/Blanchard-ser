@@ -42,6 +42,7 @@
 }
 
 .showroom__btn {
+  background: transparent;
   color: var(--amethyst_color);
   font-size: 18px;
   font-weight: 700;
@@ -52,7 +53,7 @@
   height: fit-content;
 }
 
-.showroom__btn-bottom{
+.showroom__btn.mobile {
   display: none;
 }
 
