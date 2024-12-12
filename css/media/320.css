@@ -78,7 +78,7 @@
 
   .gallery .container {
     padding-top: 50px;
-    padding-bottom: 47.5px;
+    padding-bottom: 46px;
   }
 
   .gallery-title {
@@ -111,7 +111,7 @@
   }
 
   .catalog__artists {
-    gap: 30.5px;
+    gap: 29.5px;
   }
 
   .catalog__artist {
@@ -136,7 +136,5 @@
     font-size: 28px;
     margin-bottom: 11px;
   }
-  .events__item--info {
-    padding: 18px 16px 49px 22px;
-  }
+  
 }

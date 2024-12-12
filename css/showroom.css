@@ -52,6 +52,10 @@
   height: fit-content;
 }
 
+.showroom__btn-bottom{
+  display: none;
+}
+
 .showroom__connect {
   font-size: 24px;
   font-weight: 600;
