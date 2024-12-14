@@ -29,6 +29,36 @@
   font-weight: 600;
 }
 
+.header-menu__link:hover {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.header-menu__link:focus {
+  background: none;
+  color: var(--light_purple);
+}
+
+.header-menu__link:active {
+  background: none;
+  color: var(--purple);
+}
+
+.header-search:hover {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+.header-search:focus {
+  background: none;
+  color: var(--light_purple);
+}
+
+.header-search:active {
+  background: none;
+  color: var(--amethyst_color);
+}
+
 .header-bottom {
   display: none;
 }

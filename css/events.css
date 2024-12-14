@@ -88,3 +88,18 @@
   height: 1px;
   background: var(--amethyst_color);
 }
+
+.event__btn:hover {
+  background-color: var(--amethyst_color);
+  color: var(--white);
+}
+
+.event__btn:focus {
+  background: none;
+  color: var(--purple);
+}
+
+.event__btn:active {
+  background: none;
+  color: var(--dune);
+}
