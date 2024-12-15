@@ -77,6 +77,7 @@
   font-size: 16px;
   background: transparent;
   line-height: 17px;
+  cursor: pointer;
 }
 
 .event__btn::before {
@@ -89,17 +90,34 @@
   background: var(--amethyst_color);
 }
 
-.event__btn:hover {
+.event__btn:focus-visible {
   background-color: var(--amethyst_color);
   color: var(--white);
+  padding: 5px 5px 12px 5px;
 }
 
-.event__btn:focus {
-  background: none;
+.event__btn:focus-visible::before {
+  display: block;
+  bottom: 8px;
+  background: var(--white);
+  width: calc(100% - 10px);
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+
+.event__btn:hover {
   color: var(--purple);
 }
 
+.event__btn:hover::before {
+  background: var(--purple);
+}
+
 .event__btn:active {
-  background: none;
   color: var(--dune);
+}
+
+.event__btn:active::before {
+  background: var(--dune);
 }

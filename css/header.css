@@ -29,34 +29,36 @@
   font-weight: 600;
 }
 
-.header-menu__link:hover {
+.header-menu__link:focus-visible {
   background-color: var(--purple);
-  color: var(--white);
 }
 
-.header-menu__link:focus {
-  background: none;
+.header-menu__link:hover {
   color: var(--light_purple);
 }
 
 .header-menu__link:active {
-  background: none;
   color: var(--purple);
 }
 
-.header-search:hover {
+.header-search:focus-visible {
   background-color: var(--purple);
-  color: var(--white);
+  padding: 3px;
+  box-sizing: content-box;
 }
 
-.header-search:focus {
-  background: none;
-  color: var(--light_purple);
+.header-search {
+  cursor: pointer;
 }
 
-.header-search:active {
-  background: none;
-  color: var(--amethyst_color);
+.header-search:hover rect,
+.header-search:hover path {
+  fill: var(--light_purple);
+}
+
+.header-search:active rect,
+.header-search:active path {
+  fill: var(--amethyst_color);
 }
 
 .header-bottom {
