@@ -42,6 +42,7 @@
 }
 
 .showroom__btn {
+  position: relative;
   background: transparent;
   color: var(--amethyst_color);
   font-size: 18px;
@@ -51,6 +52,34 @@
   outline: 2px solid var(--amethyst_color);
   border: none;
   height: fit-content;
+  cursor: pointer;
+}
+
+.showroom__btn::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  outline: 2px solid#C283F3;
+  border-radius: 100px;
+  opacity: 0;
+}
+
+.showroom__btn:hover {
+  background: var(--amethyst_color);
+  color: var(--white);
+}
+
+.showroom__btn:focus-visible::before {
+  opacity: 1;
+}
+
+.showroom__btn:active {
+  background: var(--purple);
+  outline: 3px solid var(--pale_violet);
+  color: var(--white);
 }
 
 .showroom__btn.mobile {
@@ -66,4 +95,18 @@
 .showroom__social {
   display: flex;
   gap: 20px;
+}
+
+.showroom__social--img {
+  cursor: pointer;
+}
+
+.showroom__social--img:hover {
+  box-shadow: offset-x offset-y blur spread color position;
+  box-shadow: 100px 100px 100px 100px rgba(48, 191, 57, 0.2) inset;
+}
+
+.showroom__social--img:active {
+  outline: 1px solid var(--amethyst_color);
+  border-radius: 100px;
 }
