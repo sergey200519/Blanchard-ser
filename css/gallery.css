@@ -35,12 +35,60 @@
 }
 
 .gallery-check {
+  display: flex;
+  align-items: center;
   cursor: pointer;
   color: var(--white);
   font-size: 16px;
   line-height: 32px;
 }
 
+.gallery-check:hover .gallery-check--box {
+  border: 1px solid var(--light_purple);
+}
+
+.gallery-check:focus-visible .gallery-check--box {
+  border: 1px solid var(--light_purple);
+}
+
+.gallery-check:focus-visible {
+  color: var(--light_purple);
+}
+
+.gallery-check:active .gallery-check--box::before {
+  opacity: 1;
+}
+
+.gallery-input:checked + .gallery-check--box::before,
+.gallery-input:checked {
+  opacity: 1;
+}
+
 .gallery-input {
-  margin-right: 7px;
+  opacity: 0;
+  pointer-events: none;
+  /* margin-right: 7px; */
+}
+
+.gallery-check--box {
+  display: block;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--white);
+}
+
+.gallery-check--box::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--light_purple);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50%;
+  opacity: 0;
 }

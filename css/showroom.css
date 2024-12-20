@@ -31,6 +31,11 @@
   align-items: center;
 }
 
+.showroom__center--label input:hover,
+.showroom__center--label input:focus-visible {
+  background: var(--dark_white);
+}
+
 .input {
   min-width: 270px;
   padding: 9px 24px;
@@ -101,12 +106,13 @@
   cursor: pointer;
 }
 
-.showroom__social--img:hover {
-  box-shadow: offset-x offset-y blur spread color position;
-  box-shadow: 100px 100px 100px 100px rgba(48, 191, 57, 0.2) inset;
+.showroom__social--img:hover,
+.showroom__social--img:focus-visible{
+ opacity: .5;
 }
 
 .showroom__social--img:active {
   outline: 1px solid var(--amethyst_color);
   border-radius: 100px;
+  opacity: 1;
 }

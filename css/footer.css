@@ -12,3 +12,16 @@
   display: flex;
   gap: 20px;
 }
+
+.footer-social_svg {
+  cursor: pointer;
+}
+
+.footer-social_svg:hover path,
+.footer-social_svg:focus-visible path{
+  fill: var(--white);
+}
+
+.footer-social_svg:active path{
+  fill: var(--amethyst_color);
+}
