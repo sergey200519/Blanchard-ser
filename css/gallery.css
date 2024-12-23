@@ -41,6 +41,7 @@
   color: var(--white);
   font-size: 16px;
   line-height: 32px;
+  gap: 7px;
 }
 
 .gallery-check:hover .gallery-check--box {
@@ -55,17 +56,17 @@
   color: var(--light_purple);
 }
 
-.gallery-check:active .gallery-check--box::before {
+.gallery-check:active .gallery-check--box::before,
+.gallery-input:checked + .gallery-check--box::before {
   opacity: 1;
 }
 
-.gallery-input:checked + .gallery-check--box::before,
-.gallery-input:checked {
-  opacity: 1;
+.gallery-input:checked + .gallery-check--box {
+  border: 1px solid var(--light_purple);
 }
 
 .gallery-input {
-  opacity: 0;
+  display: none;
   pointer-events: none;
   /* margin-right: 7px; */
 }
