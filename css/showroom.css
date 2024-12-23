@@ -12,14 +12,14 @@
 }
 
 
-.showroom-title {
+.showroom--title {
   font-size: 24px;
   font-weight: 600;
   line-height: 32px;
   margin-bottom: 6px;
 }
 
-.showroom-address {
+.showroom--address {
   font-size: 16px;
   font-weight: 400;
   font-style: normal;

@@ -13,10 +13,10 @@
     gap: 27px;
   }
 
-  .catalog_picture {
+  .catalog__picture {
     width: 100%;
   }
-  .catalog_picture img {
+  .catalog__picture img {
     width: 100%;
   }
 

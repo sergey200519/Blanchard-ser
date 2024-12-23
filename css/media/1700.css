@@ -10,25 +10,25 @@
     padding-bottom: 29px;
   }
 
-  .header-left .header-menu {
+  .header--left .header-menu {
     display: none;
   }
 
-  .header-logo {
+  .header--logo {
     width: 187.6px;
   }
 
-  .header-bottom {
+  .header--bottom {
     display: block;
     grid-column-start: span 2;
     /* grid-column-end: 2; */
   }
 
-  .header-search {
+  .header--search {
     margin-left: auto;
   }
 
-  .header-menu__list {
+  .header--menu__list {
     justify-content: space-between;
     gap: 10px;
   }
@@ -43,11 +43,11 @@
     margin-bottom: 30px;
   }
 
-  .showroom-title {
+  .showroom--title {
     margin-bottom: 10px;
   }
 
-  .showroom-address {
+  .showroom--address {
     font-size: 14px;
   }
 

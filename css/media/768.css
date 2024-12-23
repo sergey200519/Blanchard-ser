@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  .header-menu__list {
+  .header--menu__list {
     justify-content: start;
     gap: 44px;
   }
@@ -17,15 +17,15 @@
     padding-bottom: 85px;
   }
 
-  .hero-subtitle {
+  .hero--subtitle {
     max-width: 555px;
   }
 
-  .gallery_picture {
+  .gallery__picture {
     width: 200px;
   }
 
-  .gallery_picture img {
+  .gallery__picture img {
     width: 100%;
   }
 
@@ -37,11 +37,11 @@
   }
 
 
-  .gallery-title {
+  .gallery--title {
     margin-bottom: 15px;
   }
 
-  .gallery-checked {
+  .gallery--checked {
     margin-bottom: 31px;
   }
   .gallery__puctures {
@@ -54,7 +54,7 @@
     width: 668px;
   } */
 
- 
+
 
   .events .container {
     padding-bottom: 78px;
@@ -90,12 +90,12 @@
     bottom: -6px;
   }
 
-  .projects-descr {
+  .projects--descr {
     margin-bottom: 28px;
     max-width: 657.5px;
   }
 
-  .projects-info {
+  .projects--info {
     margin-bottom: 29px;
   }
 

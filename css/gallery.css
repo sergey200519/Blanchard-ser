@@ -10,14 +10,14 @@
   padding-bottom: 75.5px;
 }
 
-.gallery-title {
+.gallery--title {
   margin-bottom: 19.5px;
   font-size: 48px;
   font-weight: 400;
   color: var(--white);
 }
 
-.gallery-block {
+.gallery--block {
   display: flex;
   justify-content: space-between;
 }
@@ -28,13 +28,13 @@
   gap: 50px;
 }
 
-.gallery-checked {
+.gallery--checked {
   display: flex;
   align-self: end;
   flex-direction: column;
 }
 
-.gallery-check {
+.gallery--check {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -43,34 +43,34 @@
   line-height: 32px;
 }
 
-.gallery-check:hover .gallery-check--box {
+.gallery--check:hover .gallery--check--box {
   border: 1px solid var(--light_purple);
 }
 
-.gallery-check:focus-visible .gallery-check--box {
+.gallery--check:focus-visible .gallery--check--box {
   border: 1px solid var(--light_purple);
 }
 
-.gallery-check:focus-visible {
+.gallery--check:focus-visible {
   color: var(--light_purple);
 }
 
-.gallery-check:active .gallery-check--box::before {
+.gallery--check:active .gallery--check--box::before {
   opacity: 1;
 }
 
-.gallery-input:checked + .gallery-check--box::before,
-.gallery-input:checked {
+.gallery--input:checked + .gallery--check--box::before,
+.gallery--input:checked {
   opacity: 1;
 }
 
-.gallery-input {
+.gallery--input {
   opacity: 0;
   pointer-events: none;
   /* margin-right: 7px; */
 }
 
-.gallery-check--box {
+.gallery--check--box {
   display: block;
   position: relative;
   width: 12px;
@@ -78,7 +78,7 @@
   border: 1px solid var(--white);
 }
 
-.gallery-check--box::before {
+.gallery--check--box::before {
   content: "";
   position: absolute;
   width: 4px;

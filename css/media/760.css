@@ -4,21 +4,21 @@
     padding: 0 15px;
   }
 
-  .header-menu__list {
+  .header--menu__list {
     overflow-x: scroll;
   }
 
-  .hero-title {
+  .hero--title {
     font-size: 32px;
     text-align: center;
   }
 
-  .hero-subtitle {
+  .hero--subtitle {
     font-size: 12px;
     font-weight: 400;
     text-align: center;
   }
-  
+
   .projects__images {
     flex-wrap: wrap;
   }

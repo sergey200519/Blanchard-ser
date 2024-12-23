@@ -10,7 +10,7 @@
   padding-bottom: 146px;
 }
 
-.hero-title {
+.hero--title {
   max-width: 580px;
   padding-bottom: 20px;
   font-size: 72px;
@@ -19,7 +19,7 @@
   color: var(--white);
 }
 
-.hero-subtitle {
+.hero--subtitle {
   max-width: 580px;
   font-size: 18px;
   line-height: 30px;
@@ -28,7 +28,7 @@
   margin-bottom: 92px;
 }
 
-.hero-btn {
+.hero--btn {
   position: relative;
   font-size: 18px;
   font-weight: 700;
@@ -42,7 +42,7 @@
   transition: background-color .3s ease;
 }
 
-.hero-btn::before {
+.hero--btn::before {
   content: "";
   position: absolute;
   top: -5px;
@@ -54,15 +54,15 @@
   opacity: 0;
 }
 
-.hero-btn:hover {
+.hero--btn:hover {
   outline: 2px solid#C283F3;
 }
 
-.hero-btn:focus-visible::before {
+.hero--btn:focus-visible::before {
   opacity: 1;
 }
 
-.hero-btn:active {
+.hero--btn:active {
   background-color: var(--purple);
   outline: 3px solid var(--pale_violet);
 }
