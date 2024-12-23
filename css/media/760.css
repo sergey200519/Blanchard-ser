@@ -4,7 +4,7 @@
     padding: 0 15px;
   }
 
-  .header--menu__list {
+  .header__menu__list {
     overflow-x: scroll;
   }
 
@@ -25,7 +25,7 @@
   .projects__images--image {
     max-width: 100%;
   }
-  .showroom__center--label .input {
+  .showroom__center--label .showroom__center--input {
     min-width: auto;
     max-width: 100%;
   }

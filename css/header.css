@@ -17,7 +17,7 @@
   align-items: center;
 }
 
-.header--menu__list {
+.header__menu__list {
   display: flex;
   gap: 96px;
 }

@@ -82,7 +82,7 @@
   .showroom__center--label {
     margin-right: 0;
   }
-  .showroom__center--label .input {
+  .showroom__center--label .showroom__center--input {
     width: 100%;
     padding: 3px 24px;
   }

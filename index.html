@@ -19,7 +19,7 @@
       <div class="header--left">
         <img class="header--logo" src="/img/logo.svg" alt="" />
         <nav class="header--menu">
-          <ul class="header--menu__list">
+          <ul class="header__menu__list">
             <li class="header--menu__item">
               <a class="header--menu__link" href="">О нас</a>
             </li>
@@ -51,7 +51,7 @@
       </svg>
       <div class="header--bottom">
         <nav class="header--menu">
-          <ul class="header--menu__list">
+          <ul class="header__menu__list">
             <li class="header--menu__item">
               <a class="header--menu__link" href="">О нас</a>
             </li>
@@ -59,7 +59,7 @@
               <a class="header--menu__link" href="">Галерея</a>
             </li>
             <li class="header--menu__item">
-              <a class="header-menu__link" href="">Каталог</a>
+              <a class="header--menu__link" href="">Каталог</a>
             </li>
             <li class="header--menu__item">
               <a class="header--menu__link" href="">События</a>
@@ -110,22 +110,22 @@
 
     <section class="gallery">
       <div class="container">
-        <h2 class="gallery-title">Галерея</h2>
-        <div class="gallery-block">
-          <div class="gallery-checked">
-            <label name="" class="gallery-check">
-              <span class="gallery-check--box"></span>
-              <input class="gallery-input" type="checkbox" name="check" id="check" />
+        <h2 class="gallery--title">Галерея</h2>
+        <div class="gallery--block">
+          <div class="gallery--checked">
+            <label name="" class="gallery--check">
+              <input class="gallery--input" type="checkbox" name="check" id="check" />
+              <span class="gallery--check--box"></span>
               XIX век
             </label>
-            <label class="gallery-check">
-              <span class="gallery-check--box"></span>
-              <input class="gallery-input" type="checkbox" name="check" id="tip" />
+            <label class="gallery--check">
+              <input class="gallery--input" type="checkbox" name="check" id="tip" />
+              <span class="gallery--check--box"></span>
               XX век
             </label>
-            <label class="gallery-check">
-              <span class="gallery-check--box"></span>
-              <input class="gallery-input" type="checkbox" name="check" id="" />
+            <label class="gallery--check">
+              <input class="gallery--input" type="checkbox" name="check" id="" />
+              <span class="gallery--check--box"></span>
               Современность
             </label>
           </div>
@@ -355,11 +355,11 @@
         </div>
         <form class="showroom__center" action="https://jsonpLaceholder.typicode.com/posts" method="POST" class="form">
           <label class="showroom__center--label">
-            <input minlength="2" maxlength="30" required type="text" name="name" placeholder="Имя*" autocomplete="off"
-              class="input" id="name" />
+            <input type="text" minlength="2" maxlength="200" title="xcxx" name="name" placeholder="Имя*" pattern="[а-яА-Я]+"
+              class="showroom__center--input" id="name" required/>
           </label>
           <label class="showroom__center--label">
-            <input required type="tel" name="telephon" placeholder="Телефон*" class="input" autocomplete="off" />
+            <input type="tel" name="telephon" placeholder="Телефон*" title="Формат: +7 (123) 456-78-90" pattern="\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}"  class="showroom__center--input" required />
           </label>
           <button type="submit" class="showroom__btn desktop">
             Заказать обратный звонок
