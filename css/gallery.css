@@ -56,7 +56,6 @@
   color: var(--light_purple);
 }
 
-<<<<<<< HEAD
 .gallery--check:active .gallery--check--box::before {
   opacity: 1;
 }
@@ -68,21 +67,6 @@
 
 .gallery--input {
   opacity: 0;
-=======
-.gallery-check:active .gallery-check--box::before,
-.gallery-input:checked + .gallery-check--box::before {
-  opacity: 1;
-}
-
-.gallery-input:checked + .gallery-check--box {
-  border: 1px solid var(--light_purple);
-}
-
-.gallery-input {
-  display: none;
->>>>>>> 8d5b82382deba766660c653a1554dad161cf0f7d
-  pointer-events: none;
-  /* margin-right: 7px; */
 }
 
 .gallery--check--box {
