@@ -2,13 +2,13 @@
   padding-bottom: 80px;
 }
 
-.projects--title {
+.projects__title {
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 16px;
 }
 
-.projects--descr {
+.projects__descr {
   max-width: 1080px;
   font-size: 16px;
   font-weight: 400;
@@ -16,7 +16,7 @@
   margin-bottom: 30px;
 }
 
-.projects--info {
+.projects__info {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 16px;

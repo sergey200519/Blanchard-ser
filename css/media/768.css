@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  .header__menu__list {
+  .header__menu--list {
     justify-content: start;
     gap: 44px;
   }
@@ -17,7 +17,7 @@
     padding-bottom: 85px;
   }
 
-  .hero--subtitle {
+  .hero__subtitle {
     max-width: 555px;
   }
 
@@ -37,11 +37,11 @@
   }
 
 
-  .gallery--title {
+  .gallery__title {
     margin-bottom: 15px;
   }
 
-  .gallery--checked {
+  .gallery__checked {
     margin-bottom: 31px;
   }
   .gallery__puctures {
@@ -90,12 +90,12 @@
     bottom: -6px;
   }
 
-  .projects--descr {
+  .projects__descr {
     margin-bottom: 28px;
     max-width: 657.5px;
   }
 
-  .projects--info {
+  .projects__info {
     margin-bottom: 29px;
   }
 

@@ -3,14 +3,14 @@
   padding-bottom: 70px;
 }
 
-.about--title {
+.about__title {
   margin-bottom: 16px;
   font-size: 48px;
   font-weight: 400;
   color: #333333;
  }
 
- .about--description {
+ .about__description {
   max-width: 1080px;
  line-height: 32px;
   font-size: 16px;

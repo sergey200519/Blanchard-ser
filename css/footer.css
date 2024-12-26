@@ -8,20 +8,20 @@
   padding-bottom: 48px;
 }
 
-.footer--social {
+.footer__social {
   display: flex;
   gap: 20px;
 }
 
-.footer--social_svg {
+.footer__social--svg {
   cursor: pointer;
 }
 
-.footer--social_svg:hover path,
-.footer--social_svg:focus-visible path{
+.footer__social--svg:hover path,
+.footer__social--svg:focus-visible path{
   fill: var(--white);
 }
 
-.footer--social_svg:active path{
+.footer__social--svg:active path{
   fill: var(--amethyst_color);
 }

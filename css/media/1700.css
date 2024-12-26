@@ -10,15 +10,15 @@
     padding-bottom: 29px;
   }
 
-  .header--left .header--menu {
+  .header__left .header__menu {
     display: none;
   }
 
-  .header--logo {
+  .header__logo {
     width: 187.6px;
   }
 
-  .header--bottom {
+  .header__bottom {
     display: block;
     grid-column-start: span 2;
     /* grid-column-end: 2; */
@@ -28,7 +28,7 @@
     margin-left: auto;
   }
 
-  .header__menu__list {
+  .header__menu--list {
     justify-content: space-between;
     gap: 10px;
   }
@@ -43,11 +43,11 @@
     margin-bottom: 30px;
   }
 
-  .showroom--title {
+  .showroom__title {
     margin-bottom: 10px;
   }
 
-  .showroom--address {
+  .showroom__address {
     font-size: 14px;
   }
 

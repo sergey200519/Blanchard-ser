@@ -2,7 +2,7 @@
   padding-bottom: 79px;
 }
 
-.events--title {
+.events__title {
   font-size: 48px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -43,8 +43,8 @@
   margin-bottom: 12px;
 }
 
-.event--location,
-.event--date {
+.event__location,
+.event__date {
   font-size: 12px;
   font-weight: 600;
   line-height: 16.34px;

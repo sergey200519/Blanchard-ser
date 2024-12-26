@@ -11,33 +11,33 @@
   padding-bottom: 30.1px;
 }
 
-.header--left {
+.header__left {
   display: flex;
   gap: 179px;
   align-items: center;
 }
 
-.header__menu__list {
+.header__menu--list {
   display: flex;
   gap: 96px;
 }
 
-.header--menu__link {
+.header__menu--link {
   white-space: nowrap;
   color: var(--white);
   font-size: 18px;
   font-weight: 600;
 }
 
-.header--menu__link:focus-visible {
+.header__menu--link:focus-visible {
   background-color: var(--purple);
 }
 
-.header--menu__link:hover {
+.header__menu--link:hover {
   color: var(--light_purple);
 }
 
-.header--menu__link:active {
+.header__menu--link:active {
   color: var(--purple);
 }
 
@@ -61,6 +61,6 @@
   fill: var(--amethyst_color);
 }
 
-.header--bottom {
+.header__bottom {
   display: none;
 }

@@ -6,7 +6,7 @@
     padding-bottom: 9px;
   }
 
-  .header--logo {
+  .header__logo {
     width: 96.8px;
   }
 
@@ -14,12 +14,12 @@
     width: 18px;
   }
 
-  .header__menu__list {
+  .header__menu--list {
     gap: 25px;
     margin-right: -15px;
   }
 
-  .header--menu__link {
+  .header__menu--link {
     font-size: 12px;
     font-weight: 700;
   }
@@ -36,18 +36,18 @@
     padding-bottom: 49.5px;
   }
 
-  .hero--title {
+  .hero__title {
     line-height: 28px;
     padding-bottom: 11px;
   }
 
-  .hero--subtitle {
+  .hero__subtitle {
     max-width: 283px;
     line-height: 16.34px;
     margin: 0 auto 38px auto;
   }
 
-  .hero--btn {
+  .hero__btn {
     display: block;
     font-size: 12px;
     padding: 8px 19px;
@@ -59,12 +59,12 @@
     padding-bottom: 41px;
   }
 
-  .about--title {
+  .about__title {
     font-size: 28px;
     margin-bottom: 12px;
   }
 
-  .about--description {
+  .about__description {
     font-size: 14px;
     line-height: 28px;
   }
@@ -81,7 +81,7 @@
     padding-bottom: 46px;
   }
 
-  .gallery--title {
+  .gallery__title {
     font-size: 28px;
     margin-bottom: 12px;
   }
@@ -132,7 +132,7 @@
     margin-bottom: 13px;
   }
 
-  .events--title {
+  .events__title {
     font-size: 28px;
     margin-bottom: 11px;
   }

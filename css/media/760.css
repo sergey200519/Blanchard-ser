@@ -4,16 +4,16 @@
     padding: 0 15px;
   }
 
-  .header__menu__list {
+  .header__menu--list {
     overflow-x: scroll;
   }
 
-  .hero--title {
+  .hero__title {
     font-size: 32px;
     text-align: center;
   }
 
-  .hero--subtitle {
+  .hero__subtitle {
     font-size: 12px;
     font-weight: 400;
     text-align: center;
