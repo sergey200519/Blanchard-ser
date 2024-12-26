@@ -26,7 +26,7 @@
 .gallery__puctures {
   display: flex;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 49px;
 }
 
 .gallery__checked {
