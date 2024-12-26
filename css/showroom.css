@@ -31,6 +31,31 @@
   align-items: center;
 }
 
+.showroom__center--label {
+  position: relative;
+}
+
+.showroom__center--label::before {
+  content: "Неверный формат";
+  position: absolute;
+  display: block;
+  top: -20px;
+  left: 15px;
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--red);
+}
+
+.showroom__center--label:has(.showroom__center--input:invalid:placeholder-shown)::before {
+  opacity: 0;
+}
+
+.showroom__center--label:has(.showroom__center--input:invalid)::before {
+  opacity: 1;
+}
+
+
 .showroom__center--label input:hover,
 .showroom__center--label input:focus-visible {
   background: var(--dark_white);
@@ -45,28 +70,22 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
+  cursor: text;
 }
 
 .showroom__center--input:invalid {
   border: 1px solid red;
 }
 
-.showroom__center--input::before {
-  content: "опаооаолпо";
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: green;
-  top: -5px;
-  left: 5px;
+
+
+.showroom__center--input:not(:focus):invalid:placeholder-shown,
+.showroom__center--input:not(:focus-visible):invalid:placeholder-shown {
+  border: 1px solid var(--silver_color);
 }
 
-.showroom__center--input:invalid::before {
-  opacity: 1;
-}
-
-.showroom__center--input:not(:focus):invalid,
-.showroom__center--input:not(:focus-visible):invalid {
+.showroom__center--input:focus:invalid:placeholder-shown,
+.showroom__center--input:focus-visible:invalid:placeholder-shown {
   border: 1px solid var(--silver_color);
 }
 
