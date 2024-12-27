@@ -63,9 +63,6 @@
     margin-bottom: 6px;
   }
 
-  .events__list .events__item:first-child .event__name .event__name--secect {
-    white-space: wrap;
-  }
 
   .event__subname {
     align-items: end;
