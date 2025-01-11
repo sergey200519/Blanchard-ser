@@ -40,14 +40,16 @@
     padding-bottom: 41px;
   }
 
-  .projects-info {
+  .projects__title {
     font-size: 28px;
+    font-weight: 400;
     margin-bottom: 12px;
   }
 
   .projects__descr {
     margin-bottom: 24px;
   }
+
   .projects__info {
     font-size: 18px;
     margin-bottom: 15px;
@@ -124,6 +126,7 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 19.5px;
+    padding-bottom: 20px;
   }
 
   .footer__social--svg {
