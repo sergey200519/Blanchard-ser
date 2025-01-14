@@ -2,19 +2,20 @@
   background: var(--black);
 }
 
-.header .container {
+.header__container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30.1px;
 }
 
-.header__left {
-  display: flex;
-  gap: 179px;
-  align-items: center;
+.header__logo {
+  margin-right: 179px;
+}
+
+.header__menu {
+  margin-right: auto;
 }
 
 .header__menu--list {
@@ -59,8 +60,4 @@
 .header--search:active rect,
 .header--search:active path {
   fill: var(--amethyst_color);
-}
-
-.header__bottom {
-  display: none;
 }
