@@ -48,6 +48,10 @@
   box-sizing: content-box;
 }
 
+.header--btn {
+  background: transparent;
+  border: none;
+}
 .header--search {
   cursor: pointer;
 }
