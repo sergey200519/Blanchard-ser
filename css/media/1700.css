@@ -3,23 +3,22 @@
     padding: 0 50px;
   }
 
-  .header .container {
+  .header__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 23px;
-    padding-bottom: 29px;
-  }
-
-  .header__left .header__menu {
-    display: none;
+    padding-top: 32px;
+    padding-bottom: 25px;
   }
 
   .header__logo {
     width: 187.6px;
   }
 
-  .header__bottom {
+  .header__menu {
+    order: 3;
     display: block;
+    width: 100%;
     grid-column-start: span 2;
     /* grid-column-end: 2; */
   }
@@ -30,7 +29,7 @@
 
   .header__menu--list {
     justify-content: space-between;
-    gap: 10px;
+    gap: 24px;
   }
 
   .showroom .container {
