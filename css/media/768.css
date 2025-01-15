@@ -70,15 +70,15 @@
     gap: 30px;
   }
 
-  .events__list .events__item:nth-child(2) .event__name {
-    max-width: 401px;
+  .event:first-child .event__name {
+    max-width: fit-content;
   }
 
   .event__content {
     max-width: 100%;
   }
 
-  .events__item--info {
+  .event__info {
     min-height: 328px;
     padding-bottom: 53px;
   }

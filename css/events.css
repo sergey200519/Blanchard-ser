@@ -15,16 +15,17 @@
   grid-template-columns: repeat(3,1fr);
   gap: 50px;
 }
-.events__item {
+.event {
   display: flex;
   flex-direction: column;
 }
-.events__item--image {
+
+.event__image {
   display: block;
   width: 100%;
 }
 
-.events__item--info {
+.event__info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -67,10 +68,10 @@
   margin-bottom: 10px;
 }
 
-/* TODO:осторожно не изменять ширину родителя */
-.events__list .events__item:first-child .event__name .event__name--secect {
-  white-space: nowrap;
+.event:first-child .event__name {
+  max-width: 290px;
 }
+
 
 .event__descr {
   font-size: 16px;
