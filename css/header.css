@@ -20,7 +20,6 @@
 
 .header__menu--list {
   display: flex;
-  gap: 96px;
   gap: calc(35px + (96 - 35) * ((100vw - 1400px) / (1920 - 1400)));
 }
 
