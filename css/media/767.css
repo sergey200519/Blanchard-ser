@@ -1,12 +1,13 @@
-@media (max-width: 760px) {
+@media (max-width: 767px) {
 
   .container {
     padding: 0 15px;
   }
 
   .header__container {
-    padding-top: 13px;
+    padding-top: 11px;
     padding-bottom: 9px;
+    row-gap: 3px;
   }
 
   .header__menu--list {

@@ -11,7 +11,7 @@
 }
 
 .header__logo {
-  margin-right: calc(100px + (179 - 100) * ((100vw - 1400px) / (1920 - 1400)));
+  margin-right: calc(100px + (179 - 100) * ((100vw - 1440px) / (1920 - 1440)));
 }
 
 .header__menu {
@@ -20,7 +20,7 @@
 
 .header__menu--list {
   display: flex;
-  gap: calc(35px + (96 - 35) * ((100vw - 1400px) / (1920 - 1400)));
+  gap: calc(35px + (96 - 35) * ((100vw - 1440px) / (1920 - 1440)));
 }
 
 .header__menu--link {

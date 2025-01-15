@@ -94,21 +94,17 @@
         display: block;
         margin-bottom: 20px;
     }
-
-    .showroom__btn.desktop {
-        display: none;
-    }
-
-    .showroom__btn.mobile {
-        display: block;
-    }
-
+/* TODO почему border */
     .showroom__btn {
         font-size: 12px;
         margin-top: 20px;
         padding: 9.5px 33px;
         outline: none;
         border: 2px solid var(--amethyst_color);
+    }
+
+    .showroom__btn__decktop {
+      display: none;
     }
 
     .showroom__connect {

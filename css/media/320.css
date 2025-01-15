@@ -1,8 +1,5 @@
 @media (max-width: 320px) {
 
-  .header .container {
-    row-gap: 6px;
-  }
 
   .header__logo {
     width: 96.8px;
@@ -36,7 +33,6 @@
 
   .hero__title {
     line-height: 28px;
-    padding-bottom: 11px;
   }
 
   .hero__subtitle {
