@@ -1,0 +1,140 @@
+@media (max-width: 576px) {
+    .events .container {
+        padding-bottom: 48px;
+    }
+
+    .events__list {
+        gap: 20px;
+    }
+
+    .event__info {
+        min-height: 484px;
+        padding: 18px 16px 56px 22px;
+    }
+
+    .event__subname {
+        margin-bottom: 8px;
+    }
+
+    .event__location {
+        font-weight: 400;
+    }
+
+    .event__name {
+        max-width: 228px;
+        margin-bottom: 6px;
+    }
+
+    .events__list .events__item:nth-child(2) .event__name {
+        max-width: 228px;
+    }
+
+    .events__list .events__item:nth-child(2) .event__descr {
+        max-width: 234px;
+    }
+
+    .event__btn {
+        margin-left: 6px;
+    }
+
+    .projects .container {
+        padding-bottom: 41px;
+    }
+
+    .projects-info {
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .projects__descr {
+        margin-bottom: 24px;
+    }
+
+    .projects__info {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .projects__images {
+        gap: 7px;
+    }
+
+    .showroom {
+        border: none;
+    }
+
+    .showroom .container {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .showroom__left {
+        margin-bottom: 20px;
+    }
+
+    .showroom__title {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+
+    .showroom__center {
+        margin-bottom: 24px;
+    }
+
+    .showroom__center--label {
+        margin-right: 0;
+    }
+
+    .showroom__center--label .showroom__center--input {
+        width: 100%;
+        padding: 3px 24px;
+    }
+
+    .showroom__center--label:first-child {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .showroom__btn.desktop {
+        display: none;
+    }
+
+    .showroom__btn.mobile {
+        display: block;
+    }
+
+    .showroom__btn {
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 9.5px 33px;
+        outline: none;
+        border: 2px solid var(--amethyst_color);
+    }
+
+    .showroom__connect {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 11px;
+    }
+
+    .showroom__social--img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer .container {
+        padding-top: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 19.5px;
+    }
+
+    .footer__social--svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer__logo {
+        width: 96.8px;
+    }
+}
