@@ -21,13 +21,6 @@
     max-width: 555px;
   }
 
-  .gallery__picture {
-    width: 200px;
-  }
-
-  .gallery__picture img {
-    width: 100%;
-  }
 
   .gallery {
     background-image: url(../../img/gallery_768.png);
@@ -52,8 +45,7 @@
     width: 200px;
   }
 
-  /* TODO: fix add new class */
-  .gallery__picture img {
+  .gallery__picture__img {
     display: block;
     width: 100%;
   }
