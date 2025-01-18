@@ -85,19 +85,19 @@
     padding-bottom: 82px;
   }
 
-  .catalog__artists {
+  .catalog__peoples {
     gap: 50px;
   }
 
-  .catalog__artist {
+  .catalog__people {
     flex-direction: column;
     gap: 27px;
   }
 
-  .catalog__picture {
+  .people__picture {
     width: 100%;
   }
-  .catalog__picture img {
+  .people__picture img {
     width: 100%;
   }
 

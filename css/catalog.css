@@ -17,26 +17,26 @@
   line-height: 32px;
 }
 
-.catalog__artists {
+.catalog__peoples {
   display: flex;
   flex-direction: column;
   gap: 45px;
 }
 
-.catalog__artist {
+.catalog__people {
   display: flex;
   gap: 50px;
   align-items: center;
 }
 
-.artist__name {
+.people__info__name {
   line-height: 32.68px;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 7px;
 }
 
-.artist__date {
+.people__info__date {
   display: block;
   font-size: 12px;
   font-weight: 400;
@@ -45,7 +45,7 @@
   line-height: 16.34px;
 }
 
-.artist__descr {
+.people__info__descr {
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;

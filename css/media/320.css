@@ -104,25 +104,25 @@
     margin-bottom: 30px;
   }
 
-  .catalog__artists {
+  .catalog__peoples {
     gap: 29.5px;
   }
 
-  .catalog__artist {
+  .catalog__people {
     gap: 16px;
   }
 
-  .catalog__picture img {
+  .people__picture img {
     width: 290px;
     height: 181px;
     object-fit: cover;
   }
 
-  .artist__name {
+  .people__info__name {
      max-width: 285px;
   }
 
-  .artist__date {
+  .people__info__date {
     margin-bottom: 13px;
   }
 
