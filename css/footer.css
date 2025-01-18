@@ -17,7 +17,7 @@
   cursor: pointer;
 }
 
-.footer__social--svg:hover path,
+.footer__social--svg:hover:not(:focus-visible) path,
 .footer__social--svg:focus-visible path{
   fill: var(--white);
 }

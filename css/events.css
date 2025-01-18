@@ -117,11 +117,11 @@
   left: 0;
 }
 
-.event__btn:hover {
+.event__btn:hover:not(:focus-visible) {
   color: var(--purple);
 }
 
-.event__btn:hover::before {
+.event__btn:hover:not(:focus-visible)::before {
   background: var(--purple);
 }
 

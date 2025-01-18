@@ -34,7 +34,7 @@
   background-color: var(--purple);
 }
 
-.header__menu--link:hover {
+.header__menu--link:hover:not(:focus-visible) {
   color: var(--light_purple);
 }
 
@@ -56,8 +56,8 @@
   cursor: pointer;
 }
 
-.header--search:hover rect,
-.header--search:hover path {
+.header--search:hover:not(:focus-visible) rect,
+.header--search:hover:not(:focus-visible) path {
   fill: var(--light_purple);
 }
 

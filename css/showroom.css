@@ -56,7 +56,7 @@
   opacity: 1;
 }
 
-.showroom__center--label input:hover,
+.showroom__center--label input:hover:not(:focus-visible),
 .showroom__center--label input:focus-visible {
   background: var(--dark_white);
 }
@@ -113,7 +113,7 @@
   opacity: 0;
 }
 
-.showroom__btn:hover {
+.showroom__btn:hover:not(:focus-visible) {
   background: var(--amethyst_color);
   color: var(--white);
 }
@@ -143,7 +143,7 @@
   cursor: pointer;
 }
 
-.showroom__social--img:hover,
+.showroom__social--img:hover:not(:focus-visible),
 .showroom__social--img:focus-visible {
   opacity: 0.5;
 }
