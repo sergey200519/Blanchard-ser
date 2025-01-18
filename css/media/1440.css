@@ -35,6 +35,51 @@
     gap: 24px;
   }
 
+
+
+  .hero {
+    background-image: url(../../img/hero_1024.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+  }
+
+  .hero .container {
+    padding-top: 99px;
+    padding-bottom: 101px;
+  }
+
+  .hero__subtitle {
+    max-width: 660px;
+    margin-bottom: 133px;
+  }
+
+  .about .container {
+    padding-bottom: 71px;
+  }
+
+  .gallery {
+    background-image: url(../../img/gallery_tablet.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .gallery .container {
+    padding-bottom: 75px;
+  }
+
+  .gallery__block {
+    display: block;
+  }
+
+  .gallery__checked {
+    margin-bottom: 27px;
+  }
+
+
+
+
   .catalog .container {
     padding-top: 79px;
     padding-bottom: 82px;
@@ -60,6 +105,40 @@
     margin-bottom: 40px;
   }
 
+
+  .events .container {
+    padding-bottom: 86px;
+  }
+
+  .event__content {
+    max-width: 222px;
+  }
+
+  .events__list {
+    gap: 27px;
+  }
+
+  .event__info {
+    padding: 14px 34px 49px 34px;
+    min-height: 477px;
+  }
+
+  .event__name {
+    margin-bottom: 6px;
+  }
+
+
+  .event__subname {
+    align-items: end;
+    margin-bottom: 3px;
+  }
+
+  .projects__descr {
+    margin-bottom: 21px;
+  }
+
+
+
   .showroom .container {
     display: block;
     padding-top: 42px;
@@ -84,5 +163,16 @@
 
   .showroom__btn {
     padding: 11px 42px;
+  }
+
+
+  .footer .container {
+    padding-top: 40px;
+    padding-bottom: 41px;
+  }
+
+  .footer__social--svg {
+    width: 60px;
+    height: 60px;
   }
 }
