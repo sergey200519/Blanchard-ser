@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  .header__menu--list {
+  .header__menu__list {
     justify-content: start;
     gap: 44px;
   }
@@ -118,11 +118,11 @@
     margin-bottom: 30px;
   }
 
-  .showroom__center--label {
+  .showroom__center__label {
     margin-right: 8px;
   }
 
-  .showroom__center--label .showroom__center--input {
+  .showroom__center__label .showroom__center__input {
     padding: 9px 71px;
   }
 

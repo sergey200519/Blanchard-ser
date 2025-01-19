@@ -10,7 +10,7 @@
     row-gap: 3px;
   }
 
-  .header__menu--list {
+  .header__menu__list {
     overflow-x: scroll;
   }
 
@@ -28,10 +28,10 @@
   .projects__images {
     flex-wrap: wrap;
   }
-  .projects__images--image {
+  .projects__images__image {
     max-width: 100%;
   }
-  .showroom__center--label .showroom__center--input {
+  .showroom__center__label .showroom__center__input {
     min-width: auto;
     max-width: 100%;
   }

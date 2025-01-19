@@ -23,14 +23,14 @@
     grid-column-start: span 2;
     /* grid-column-end: 2; */
   }
-  .header--btn {
+  .header__btn {
     text-align: right;
   }
-  .header--search {
+  .header__search {
     margin-left: auto;
   }
 
-  .header__menu--list {
+  .header__menu__list {
     justify-content: space-between;
     gap: 24px;
   }
@@ -171,7 +171,7 @@
     padding-bottom: 41px;
   }
 
-  .footer__social--svg {
+  .footer__social__svg {
     width: 60px;
     height: 60px;
   }

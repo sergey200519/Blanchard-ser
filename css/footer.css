@@ -1,7 +1,7 @@
 .footer {
   background: var(--black);
 }
-.footer .container {
+.footer__container {
   display: flex;
   justify-content: space-between;
   padding-top: 47px;
@@ -13,15 +13,15 @@
   gap: 20px;
 }
 
-.footer__social--svg {
+.footer__social__svg {
   cursor: pointer;
 }
 
-.footer__social--svg:hover:not(:focus-visible) path,
-.footer__social--svg:focus-visible path{
+.footer__social__svg:hover:not(:focus-visible) path,
+.footer__social__svg:focus-visible path{
   fill: var(--white);
 }
 
-.footer__social--svg:active path{
+.footer__social__svg:active path{
   fill: var(--amethyst_color);
 }

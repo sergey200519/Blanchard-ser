@@ -5,16 +5,16 @@
     width: 96.8px;
   }
 
-  .header--search {
+  .header__search {
     width: 18px;
   }
 
-  .header__menu--list {
+  .header__menu__list {
     gap: 25px;
     margin-right: -15px;
   }
 
-  .header__menu--link {
+  .header__menu__link {
     font-size: 12px;
     font-weight: 700;
   }
