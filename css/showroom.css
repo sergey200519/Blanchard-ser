@@ -1,10 +1,10 @@
 .showroom {
   border-top: 1px solid var(--silver_color);
+  padding-top: 34px;
+  padding-bottom: 37px;
 }
 
 .showroom__container {
-  padding-top: 34px;
-  padding-bottom: 39px;
   display: flex;
   /* justify-content: space-between; */
   gap: 80px;

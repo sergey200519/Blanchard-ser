@@ -1,11 +1,11 @@
 .footer {
   background: var(--black);
+  padding-top: 47px;
+  padding-bottom: 42px;
 }
 .footer__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 47px;
-  padding-bottom: 48px;
 }
 
 .footer__social {

@@ -1,13 +1,13 @@
 .header {
   background: var(--black);
+  padding-top: 30px;
+  padding-bottom: 30.1px;
 }
 
 .header__container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30.1px;
 }
 
 .header__logo {
@@ -51,8 +51,6 @@
 .header__btn {
   background: transparent;
   border: none;
-}
-.header__search {
   cursor: pointer;
 }
 
