@@ -1,5 +1,9 @@
 @media (max-width: 576px) {
-    .events .container {
+
+  .header__container {
+    row-gap: 0;
+  }
+    .events {
         padding-bottom: 48px;
     }
 
@@ -63,7 +67,7 @@
         border: none;
     }
 
-    .showroom .container {
+    .showroom {
         padding-top: 0;
         padding-bottom: 50px;
     }
@@ -118,7 +122,7 @@
         height: 50px;
     }
 
-    .footer .container {
+    .footer {
         padding-top: 20px;
         flex-direction: column-reverse;
         align-items: center;

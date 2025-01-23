@@ -12,7 +12,7 @@
   }
 
 
-  .hero .container {
+  .hero {
     padding-top: 85px;
     padding-bottom: 85px;
   }
@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    padding-bottom: 81px;
   }
 
 
@@ -57,7 +58,7 @@
 
 
 
-  .events .container {
+  .events {
     padding-bottom: 78px;
   }
 

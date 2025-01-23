@@ -1,6 +1,5 @@
 @media (max-width: 320px) {
 
-
   .header__logo {
     width: 96.8px;
   }
@@ -24,9 +23,6 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
-  }
-
-  .hero .container {
     padding-top: 50px;
     padding-bottom: 49.5px;
   }
@@ -48,7 +44,7 @@
     margin: 0 auto;
   }
 
-  .about .container {
+  .about {
     padding-top: 50px;
     padding-bottom: 41px;
   }
@@ -68,9 +64,6 @@
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-  }
-
-  .gallery .container {
     padding-top: 50px;
     padding-bottom: 46px;
   }
@@ -90,7 +83,7 @@
   }
 
 
-  .catalog .container {
+  .catalog {
     padding-top: 50px;
     padding-bottom: 50px;
   }
