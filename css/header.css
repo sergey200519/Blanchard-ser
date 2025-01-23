@@ -23,22 +23,22 @@
   gap: calc(35px + (96 - 35) * ((100vw - 1440px) / (1920 - 1440)));
 }
 
-.header__menu__link {
+.header__link {
   white-space: nowrap;
   color: var(--white);
   font-size: 18px;
   font-weight: 600;
 }
 
-.header__menu__link:focus-visible {
+.header__link:focus-visible {
   background-color: var(--purple);
 }
 
-.header__menu__link:hover:not(:focus-visible) {
+.header__link:hover:not(:focus-visible) {
   color: var(--light_purple);
 }
 
-.header__menu__link:active {
+.header__link:active {
   color: var(--purple);
 }
 
@@ -48,7 +48,7 @@
   box-sizing: content-box;
 }
 
-.header__btn {
+.header__search {
   background: transparent;
   border: none;
   cursor: pointer;
