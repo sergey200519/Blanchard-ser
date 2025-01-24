@@ -142,9 +142,12 @@
     padding-bottom: 41px;
   }
 
-  .showroom__left {
-    margin-bottom: 30px;
+  .showroom__container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
   }
+
 
   .showroom__title {
     margin-bottom: 10px;
@@ -152,10 +155,6 @@
 
   .showroom__address {
     font-size: 14px;
-  }
-
-  .showroom__center {
-    margin-bottom: 27px;
   }
 
   .showroom__btn {
