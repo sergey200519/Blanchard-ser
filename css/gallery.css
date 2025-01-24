@@ -8,7 +8,7 @@
 }
 
 .gallery__title {
-  margin-bottom: 19.5px;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 400;
   color: var(--white);
@@ -38,8 +38,8 @@
   cursor: pointer;
   color: var(--white);
   font-size: 16px;
-  line-height: 32px;
-  gap: 7px;
+  line-height: 33px;
+  gap: 12px;
 }
 
 .gallery__check:hover:not(:focus-visible) .gallery__check__box {

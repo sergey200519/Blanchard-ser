@@ -66,6 +66,10 @@
     padding-bottom: 75px;
   }
 
+  .gallery__title {
+    margin-bottom: 15px;
+  }
+
   .gallery__block {
     display: block;
   }
@@ -134,17 +138,24 @@
     margin-bottom: 21px;
   }
 
+  .projects__images {
+    gap: 27px;
+  }
+
 
 
   .showroom {
     display: block;
     padding-top: 42px;
-    padding-bottom: 41px;
+    padding-bottom: 37px;
   }
 
-  .showroom__left {
-    margin-bottom: 30px;
+  .showroom__container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
   }
+
 
   .showroom__title {
     margin-bottom: 10px;
@@ -152,10 +163,6 @@
 
   .showroom__address {
     font-size: 14px;
-  }
-
-  .showroom__center {
-    margin-bottom: 27px;
   }
 
   .showroom__btn {
@@ -168,7 +175,7 @@
     padding-bottom: 41px;
   }
 
-  .footer__social__svg {
+  .footer__social__svg svg {
     width: 60px;
     height: 60px;
   }
