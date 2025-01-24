@@ -66,6 +66,10 @@
     padding-bottom: 75px;
   }
 
+  .gallery__title {
+    margin-bottom: 15px;
+  }
+
   .gallery__block {
     display: block;
   }
@@ -132,6 +136,10 @@
 
   .projects__descr {
     margin-bottom: 21px;
+  }
+
+  .projects__images {
+    gap: 27px;
   }
 
 
