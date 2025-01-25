@@ -66,7 +66,7 @@
   }
 
   .event:first-child .event__name {
-    max-width: fit-content;
+    max-width: 401px;
   }
 
   .event__content {
