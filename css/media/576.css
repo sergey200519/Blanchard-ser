@@ -180,6 +180,10 @@
         margin-left: 6px;
     }
 
+    .projects {
+        padding-bottom: 41px;
+    }
+
     .projects__title {
         font-size: 28px;
         margin-bottom: 12px;
@@ -203,13 +207,19 @@
         gap: 7px;
     }
 
+
+    /* TODO: why? */
     .showroom {
         border: none;
     }
 
     .showroom {
         padding-top: 0;
-        padding-bottom: 50px;
+        padding-bottom: 45px;
+    }
+
+    .showroom__container {
+        gap: 0;
     }
 
     .showroom__left {
@@ -264,15 +274,23 @@
     }
 
     .footer {
-        padding-top: 20px;
+        padding-top: 15px;
+        padding-bottom: 19px;
+    }
+
+    .footer__container {
         flex-direction: column-reverse;
-        align-items: center;
-        gap: 19.5px;
+        gap: 25px;
     }
 
     .footer__social__svg {
         width: 50px;
         height: 50px;
+    }
+
+    /* TODO: add class */
+    .footer__social__svg svg {
+        width: 100%;
     }
 
     .footer__logo {
