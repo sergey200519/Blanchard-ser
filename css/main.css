@@ -3,6 +3,11 @@
   /* outline: 1px solid red; */
 }
 
+/* *:focus,
+*:focus-visible {
+  outline: 10px red solid !important;
+} */
+
 .container {
   margin: 0 auto;
   max-width: 1700px;
