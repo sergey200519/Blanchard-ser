@@ -15,15 +15,15 @@
   gap: 20px;
 }
 
-.footer__social__svg {
+.footer__social__img {
   cursor: pointer;
 }
 
-.footer__social__svg:hover:not(:focus-visible) path,
-.footer__social__svg:focus-visible path{
+.footer__social__img:hover:not(:focus-visible) path,
+.footer__social__img:focus-visible path{
   fill: var(--white);
 }
 
-.footer__social__svg:active path{
+.footer__social__img:active path{
   fill: var(--amethyst_color);
 }

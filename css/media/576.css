@@ -14,8 +14,7 @@
         height: 18px;
     }
 
-    /* TODO: add class */
-    .header__search svg {
+    .header__search__svg {
         width: 100%;
     }
 
@@ -207,15 +206,10 @@
         gap: 7px;
     }
 
-
-    /* TODO: why? */
-    .showroom {
-        border: none;
-    }
-
     .showroom {
         padding-top: 0;
         padding-bottom: 45px;
+        border: none;
     }
 
     .showroom__container {
@@ -249,7 +243,6 @@
         margin-bottom: 20px;
     }
 
-    /* TODO почему border */
     .showroom__btn {
         font-size: 12px;
         margin-top: 20px;
@@ -283,13 +276,12 @@
         gap: 25px;
     }
 
-    .footer__social__svg {
+    .footer__social__img {
         width: 50px;
         height: 50px;
     }
 
-    /* TODO: add class */
-    .footer__social__svg svg {
+    .footer__social__svg {
         width: 100%;
     }
 
